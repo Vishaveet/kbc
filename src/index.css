@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  padding: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -10,4 +11,111 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.container{
+  height: 100vh;
+  width: 100vw;
+  background-color: black;
+  display:flex;
+  /* justify-content: space-around; */
+}
+.left-box{
+  height: 100%;
+  width: 59.9%;
+  background-color:rgb(19,32,72);
+  border-right:3px solid wheat;
+}
+.right-box{
+  height: 100%;
+  width: 40%;
+  background-color:rgb(19,32,72);
+  text-align: center;
+}
+.nav{
+   height: 15vh;
+   width:100%;
+   /* background-color: antiquewhite; */
+   display: flex;
+  }
+.left-nav{
+  width: 50%;
+  background-color: transparent;
+  display: flex;
+  justify-content: space-evenly;
+}
+.left-nav img{
+  height: 100%;
+}
+.right-nav{
+  width: 50%;
+  /* background-color: blueviolet; */
+  display: flex;
+  justify-content: space-evenly;
+}
+.right-nav img{
+  height: 100%;
+  border-radius: 50%;
+}
+.main-img{
+  margin: 31px 0px 0px 500px;
+  /* display: flex; */
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.que{
+  height:85px;
+  width: 80%;
+  background-color:rgb(42,43,78);
+  backdrop-filter: blur(5px);
+  border-radius: 49%;
+  margin: auto;
+  border: 2px solid wheat;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.que h3{
+  text-align: center;
+  color: aliceblue;
+}
+.opn{
+  margin-top: 12px;
+  height: 26vh;
+  text-align: center;
+  /* background-color: antiquewhite; */
+}
+.opns{
+  height: 50px;
+  width: 50%;
+  display: inline-block;
+  border-radius: 49%;
+  display: inline-block;
+  background-color:rgb(86,86,167);
+  margin-bottom: 5px;
+}
+.opns input{
+  margin-top: 18px;
+}
+.opns label {
+  font-size: 20px;
+  color: wheat;
+}
+.right-box h3{
+  color:orange;
+  height: 21px;
+}
+.bg{
+  color: wheat !important;
+}
+.btn{
+  height: 30px;
+  width: 100px;
+  border-radius: 20px;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+img{
+  cursor: pointer;
 }
